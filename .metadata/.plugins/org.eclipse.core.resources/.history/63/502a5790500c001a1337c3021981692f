@@ -1,0 +1,34 @@
+package Mobile.step;
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.touch.TouchActions;
+
+import Mobile.page.LoginPO;
+import MobileAndroidsetup.MobileSetup;
+import io.qameta.allure.Step;
+
+public class loginstep extends MobileSetup {
+
+
+@Step("Clicking on login")	
+public static void clickonLoginButton() {
+	click ("AccessibilityId",LoginPO.LOGIN_BUTTON);
+}
+	
+@Step ("Long Press Button")
+public static void ClicklongpressButton() {
+//WebElement btn = driver.findElement(By.xpath(LoginPo.LONGPRESS_BUTTONM));
+//	//new TouchAction(driver).longPress(ClicklongpressButton().withElement(element(LONGPRESS_BUTTONM)).withDuration(java.time.Duration.ofMillis(60000))).release().perform();
+//	new TouchAction((MobileDriver) driver).press.waitAction(Duration.ofMillis(10000)).release().perform();
+	WebElement btn = driver.findElement(By.xpath(LoginPO.LONG_LOGOPRESSICON));
+	TouchActions action = new TouchActions(driver);
+	action.longPress(btn);
+	
+}
+}
+
+
+
+	

@@ -1,0 +1,24 @@
+package Mobile.Test;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import Mobile.Feature.loginFeature;
+
+public class LoginTest extends loginFeature {
+	
+	
+	@Test(description = "valid Login")
+	public void testvalidloginpages() {
+		try {
+			Thread.sleep(6000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		gotologinpage();
+		
+	}
+	
+}
+
+

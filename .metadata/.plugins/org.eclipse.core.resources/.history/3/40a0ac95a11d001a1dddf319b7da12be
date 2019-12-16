@@ -1,0 +1,8 @@
+package Step;
+
+import AndroidSetup.AndroidSetup;
+
+public class storeLocatorStep extends AndroidSetup {
+	
+
+}

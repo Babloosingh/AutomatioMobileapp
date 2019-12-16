@@ -1,0 +1,13 @@
+package feature;
+
+import Step.locationDeliveryStep;
+import io.qameta.allure.Step;
+
+public class locationDeliveryFeature extends locationDeliveryStep{
+	@Step("Open to Delivery Locations")
+	public void GoToDeliveryMap() {
+		
+		
+	}
+
+}

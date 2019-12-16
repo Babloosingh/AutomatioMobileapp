@@ -1,0 +1,48 @@
+package Step;
+
+import javax.swing.text.html.parser.Element;
+
+import org.openqa.selenium.Dimension;
+
+import AndroidSetup.AndroidSetup;
+import io.appium.java_client.MobileBy;
+import io.appium.java_client.MobileElement;
+import io.qameta.allure.Step;
+import po.scrlollhomepages;
+
+public class homeScrollPages extends AndroidSetup {
+	@Step("click in Home Text field")
+	public static void ClickonhomeButton() {
+		click("id",scrlollhomepages.CLICK_HOMESEARCH_TEXTFIELD);
+	}
+
+	@Step("click on Cancel Back Button")
+	public static void clickoncancelButton() {
+		click("xpath",scrlollhomepages.CANCEL_BUTTON);
+		  MobileElement listitem =(MobileElement)driver.findElement(
+	               MobileBy.AndroidUIAutomator(
+	                      "new UiScrollable(new UiSelector())."
+	                      + "scrollIntoView("+"new UiSelector()."
+	                              + "text(\"HP DeskJet 2131 All-in-One Inkjet Colour Printer\"));"));
+	       
+	       listitem.click();
+	       
+	       //Thread.sleep(1000);
+
+		
+
+	}
+	
+	@Step("click on Cancel Back Button")
+	public static void ClickonallCatogry() {
+		
+		click("id",scrlollhomepages.SCROLL_CLICK_ALL_CATAGORIES);
+		
+		
+		
+	}
+	
+	
+	
+	
+}

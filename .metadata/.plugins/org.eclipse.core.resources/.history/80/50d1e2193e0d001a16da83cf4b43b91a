@@ -1,0 +1,19 @@
+package learnjava;
+
+public class javalearn {
+     
+	
+	public static void main(String[] args) {
+		 int number = 10;
+		 
+	      if (number>0) {
+	    	 System.out.print("nuber is biger");
+	      }
+		 
+	      else {
+		    	 System.out.print("nuber is smal");
+
+	      }
+		 
+	}
+	}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Lulu App Automation with appium]">
+  <test name="suite-test-testng(failed)">
+    <classes>
+      <class name="test.addCartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestvalideAddCartValue"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.addCartTest -->
+      <class name="test.locationDeliveryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestDeliveryMapAddress"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.locationDeliveryTest -->
+    </classes>
+  </test> <!-- suite-test-testng(failed) -->
+</suite> <!-- Failed suite [Lulu App Automation with appium] -->

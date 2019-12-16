@@ -1,0 +1,44 @@
+package com.project.step;
+import com.project.androidsetup.androidsetup;
+import com.project.po.homeAMZpo;import io.appium.java_client.MobileBy;
+import io.appium.java_client.MobileElement;
+import io.qameta.allure.Step;
+
+public class searchproductStep extends androidsetup {
+	
+	@Step ("Search produc")
+	public static void ClicTextName() {
+		click("xpath",homeAMZpo.HOME_SEARCHTEXTFIELD);
+		
+	}
+	
+	@Step ("Search produc")
+	public static void EnterproducName() {
+	 enterText("xpath",homeAMZpo.HOME_SEARCHTEXTFIELD,"printer\\n");   
+
+
+	 MobileElement element = driver.findElement(MobileBy.AndroidUIAutomator(
+				"new UiScrollable(new UiSelector().resourceId(\"com.android.vending:id/tab_recycler_view\")).getChildByText("
+				+ "new UiSelector().className(\"android.widget.TextView\"), \"Games We Are Playing\")"));
+		
+//Perform the action on the element
+element.click();
+
+	}
+
+	
+	@Step ("Click on Product")
+	public static void secrchandclick( ) {
+	//click("xpath",homeAMZpo.SEARC_PRODUCCLICK);
+
+	
+
+
+	}
+	
+	
+
+
+
+
+}

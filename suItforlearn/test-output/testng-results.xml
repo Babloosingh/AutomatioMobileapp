@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Departments" duration-ms="73" started-at="2019-11-23T23:07:30 IST" finished-at="2019-11-23T23:07:31 IST">
+    <groups>
+    </groups>
+    <test name="Regresiopn tgest" duration-ms="73" started-at="2019-11-23T23:07:30 IST" finished-at="2019-11-23T23:07:31 IST">
+      <class name="test.day6">
+        <test-method status="PASS" signature="demo6()[pri:0, instance:test.day6@5a8e6209]" name="demo6" is-config="true" duration-ms="13" started-at="2019-11-23T23:07:30 IST" finished-at="2019-11-23T23:07:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo6 -->
+        <test-method status="PASS" signature="demo8()[pri:0, instance:test.day6@5a8e6209]" name="demo8" is-config="true" duration-ms="1" started-at="2019-11-23T23:07:31 IST" finished-at="2019-11-23T23:07:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo8 -->
+      </class> <!-- test.day6 -->
+      <class name="test.day1">
+        <test-method status="PASS" signature="Beforeclass()[pri:0, instance:test.day1@4b4523f8]" name="Beforeclass" is-config="true" duration-ms="1" started-at="2019-11-23T23:07:30 IST" finished-at="2019-11-23T23:07:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclass -->
+        <test-method status="PASS" signature="beformethod()[pri:0, instance:test.day1@4b4523f8]" name="beformethod" is-config="true" duration-ms="1" started-at="2019-11-23T23:07:30 IST" finished-at="2019-11-23T23:07:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beformethod -->
+        <test-method status="PASS" signature="demo12()[pri:0, instance:test.day1@4b4523f8]" name="demo12" duration-ms="14" started-at="2019-11-23T23:07:30 IST" finished-at="2019-11-23T23:07:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo12 -->
+        <test-method status="PASS" signature="ddddd()[pri:0, instance:test.day1@4b4523f8]" name="ddddd" is-config="true" duration-ms="0" started-at="2019-11-23T23:07:30 IST" finished-at="2019-11-23T23:07:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ddddd -->
+        <test-method status="PASS" signature="beformethod()[pri:0, instance:test.day1@4b4523f8]" name="beformethod" is-config="true" duration-ms="0" started-at="2019-11-23T23:07:30 IST" finished-at="2019-11-23T23:07:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beformethod -->
+        <test-method status="PASS" signature="demo3()[pri:0, instance:test.day1@4b4523f8]" name="demo3" duration-ms="1" started-at="2019-11-23T23:07:30 IST" finished-at="2019-11-23T23:07:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method status="PASS" signature="ddddd()[pri:0, instance:test.day1@4b4523f8]" name="ddddd" is-config="true" duration-ms="0" started-at="2019-11-23T23:07:31 IST" finished-at="2019-11-23T23:07:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ddddd -->
+        <test-method status="PASS" signature="Afterlass()[pri:0, instance:test.day1@4b4523f8]" name="Afterlass" is-config="true" duration-ms="0" started-at="2019-11-23T23:07:31 IST" finished-at="2019-11-23T23:07:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterlass -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Regresiopn tgest -->
+  </suite> <!-- Loan Departments -->
+</testng-results>

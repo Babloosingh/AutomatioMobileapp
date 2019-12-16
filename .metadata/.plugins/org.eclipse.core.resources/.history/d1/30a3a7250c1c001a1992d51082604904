@@ -1,0 +1,14 @@
+package po;
+
+public class scrlollhomepages {
+	  public scrlollhomepages() {
+		  
+	  }public static final String CLICK_HOMESEARCH_TEXTFIELD="com.lulu.commerce:id/btnSearch";
+	  public static final String CANCEL_BUTTON="com.lulu.commerce:id/btnSearch";	  
+	  public static final String SCROLL_ALL_CATAGORIES="com.lulu.commerce:id/btnSearch";
+	  
+	  
+	  
+	  
+
+}

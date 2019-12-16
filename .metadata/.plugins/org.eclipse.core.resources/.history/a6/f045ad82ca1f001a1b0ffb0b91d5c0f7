@@ -1,0 +1,11 @@
+package Step;
+
+import AndroidSetup.AndroidSetup;
+
+public class locationDeliveryStep extends AndroidSetup{
+
+	public static void ClickOnHomeMapButton() {
+		
+	}
+	
+}

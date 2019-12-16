@@ -1,0 +1,10 @@
+package po;
+
+public class checkMyOrderpo {
+	public checkMyOrderpo() {
+		
+	}
+	
+	public static final String CHECK_MYORDER ="";
+
+}

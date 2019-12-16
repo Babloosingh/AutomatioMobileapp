@@ -1,0 +1,55 @@
+package Step;
+
+import AndroidSetup.AndroidSetup;
+import io.qameta.allure.Step;
+import po.checkMyOrderpo;
+
+public class myOrderCheckStep extends AndroidSetup {
+	
+	@Step("Click on home text field")
+	public static void ClickOnHomeTextField() {
+		click("xpath",checkMyOrderpo.ClLICK_ONTEXTFIELDHOMEPAGE);
+	}
+	
+	@Step("Click On Cancle Button ")
+	public static void ClickOnCancleButton() {
+		click("id",checkMyOrderpo.CLICKONCANCEL_BUTTON);
+	}
+	
+	@Step("Click On Home  Menu Button ")
+	public static void ClickOnHomeMenuButton() {
+		click("AccessibilityId",checkMyOrderpo.CLICKONHOMEMENU_BUTTON);
+	}
+	
+	
+	@Step("Click On Check MyOrder")
+	public static void ClickOnCheckMyOrder() {
+		click("id",checkMyOrderpo.CLICKCHECK_MYORDER);
+	}
+	
+	@Step(" Click  OnMy  Order Cancel Button")
+	public static void ClickOnMyOrderCancelButton() {
+		click("id",checkMyOrderpo.CLICK0NMYORDER_CANCELBUTTON);
+	}
+	
+	@Step(" Click On Home Button")
+	public static void ClickOnHomeButton() {
+		click("id",checkMyOrderpo.CLICKHOME_BUTTON);
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+	//public static final String ClLICK_ONTEXTFIELDHOMEPAGE ="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]";
+	//public static final String CLICKONCANCEL_BUTTON ="com.lulu.commerce:id/btnBack";
+	//public static final String CLICKONHOMEMENU_BUTTON ="Navigate up";
+	//public static final String CLICKCHECK_MYORDER ="com.lulu.commerce:id/btnMyOrders";
+	//public static final String CLICK0NMYORDER_CANCELBUTTON ="com.lulu.commerce:id/btnBack";
+	//public static final String CLICKHOME_BUTTON ="com.lulu.commerce:id/btnHome";
+	
+
+}

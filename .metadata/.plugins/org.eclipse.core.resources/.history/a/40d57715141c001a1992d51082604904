@@ -1,0 +1,7 @@
+package Step;
+
+import AndroidSetup.AndroidSetup;
+
+public class homeScrollPages extends AndroidSetup {
+
+}

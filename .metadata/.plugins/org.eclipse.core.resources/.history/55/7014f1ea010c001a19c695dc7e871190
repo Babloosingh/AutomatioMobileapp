@@ -1,0 +1,13 @@
+package Mobile.Test;
+
+import org.testng.annotations.Test;
+import Mobile.Feature.loginFeature;
+
+public class LoginTest extends loginFeature {
+	
+	@Test(description = "valid Login")
+	public void testvalidloginpages() {
+		gotologinpage();
+	}
+
+}

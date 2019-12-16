@@ -1,0 +1,8 @@
+package Mobile.page;
+
+public class LoginPo {
+	private LoginPo() {
+	}
+	public static final String LOGIN_BUTTON ="continue button_chooseLanguage";
+
+}

@@ -1,0 +1,86 @@
+package Step;
+
+import AndroidSetup.AndroidSetup;
+import io.qameta.allure.Step;
+import po.locationDeliveryPo;
+
+public class locationDeliveryStep extends AndroidSetup{
+	
+	@Step("Click On Home Map Button")
+	public static void ClickOnHomeMapButton() {
+		click("xpath",locationDeliveryPo.DELIVERYMAP_HOMEBUTTON);
+	}
+	
+	@Step("Click On Delivery Location")
+	public static void ClickOnDeliveryLocation() {
+		click("id",locationDeliveryPo.DELIVERY_LOCATION);
+	}
+//	@Step("Click On slect country")
+//	public static void SelectCountry() {
+//		click("xpath",locationDeliveryPo.SELECT_COUNTRY);
+//	}
+	
+//	@Step("Click On slect city")
+//	public static void SelectCity() {
+//		click("xpath",locationDeliveryPo.SELECT_CITY);
+//	}
+	
+	@Step("Click On save button")
+	public static void SelecsaveButton() {
+		click("id",locationDeliveryPo.SAVE_BUTTON);
+	}
+	
+	@Step("Go to On Home map")
+	public static void ClickOnHomemapButton() {
+		click("xpath",locationDeliveryPo.DELIVERYMAP_HOMEBUTTON);
+	}
+
+	
+	@Step("Selec Delivery Mode ")
+	public static void SelecDeliveryMode() {
+		click("id",locationDeliveryPo.SAVE_BUTTON);
+	}
+	
+	
+	@Step("save Delivery Mode ")
+	public static void SaveDeliveryMode() {
+		click("id",locationDeliveryPo.SAVE_DELIVERYMODE);
+	}
+	
+	@Step("Selec Delivery slot ")
+	public static void clckOnDeliveryslot() {
+		click("xpath",locationDeliveryPo.DELIVERY_SLOT);
+	}
+	@Step("Choose to day ")
+	public static void ChooseDay() {
+		click("xpath",locationDeliveryPo.SATURDAY_21DECEMBER);
+	}
+	
+	@Step("Choose to day ")
+	public static void ChooseTme() {
+		click("xpath",locationDeliveryPo.TIME_SLOTE);
+	}
+	@Step("Save to All slot ")
+	public static void ClicOnsavebuttonallslote() {
+		click("id",locationDeliveryPo.SAVE_ALLSLOTE);
+	}
+
+	@Step("Click On Langauage ")
+	public static void ClicOnLangauage() {
+		click("xpath",locationDeliveryPo.LANGAUAGE_SELECT);
+	}
+	
+	@Step("Click On Urdu ")
+	public static void SelectUrdu() {
+		click("xpath",locationDeliveryPo.URUDU_SELECT);
+	}
+	
+	@Step("Click On English ")
+	public static void SelectEnglish() {
+		click("xpath",locationDeliveryPo.ENGLISH_SELECT);
+	}
+	@Step("Click On Save Language")
+	public static void SelectSaveLangauge() {
+		click("xpath",locationDeliveryPo.SAVE_LANGAUAGE);
+	}	
+}

@@ -1,0 +1,24 @@
+package Step;
+
+import AndroidSetup.AndroidSetup;
+import io.qameta.allure.Step;
+import po.locationDeliveryPo;
+
+public class locationDeliveryStep extends AndroidSetup{
+	
+	@Step("Click On Home Map Button")
+	public static void ClickOnHomeMapButton() {
+		click("xpath",locationDeliveryPo.DELIVERYMAP_HOMEBUTTON);
+	}
+	
+	@Step("Click On Delivery Location")
+	public static void ClickOnDeliveryLocation() {
+		click("xpath",locationDeliveryPo.DELIVERY_LOCATION);
+	}
+	
+
+	
+	
+	
+	
+}

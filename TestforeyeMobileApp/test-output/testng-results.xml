@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44549" started-at="2019-11-25T05:06:51Z" finished-at="2019-11-25T05:07:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44549" started-at="2019-11-25T05:06:51Z" finished-at="2019-11-25T05:07:35Z">
+      <class name="Mobile.Test.LoginTest">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:Mobile.Test.LoginTest@1d16f93d]" name="getDriver" is-config="true" duration-ms="28533" started-at="2019-11-25T10:36:22Z" finished-at="2019-11-25T10:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="testvalidloginpages()[pri:0, instance:Mobile.Test.LoginTest@1d16f93d]" name="testvalidloginpages" duration-ms="44518" started-at="2019-11-25T10:36:51Z" description="valid Login" finished-at="2019-11-25T10:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testvalidloginpages -->
+      </class> <!-- Mobile.Test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

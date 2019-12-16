@@ -1,0 +1,14 @@
+package feature;
+
+import Step.LoginStep;
+import Step.homeScrollPages;
+import io.qameta.allure.Step;
+
+public class allCatogoryInHomePagesfeature extends homeScrollPages{
+	@Step ("open login pages")
+	public void GotoAllCatogory(){
+		ClickonhomeButton();
+		clickoncancelButton();
+		ClickonallCatogry();
+}
+}

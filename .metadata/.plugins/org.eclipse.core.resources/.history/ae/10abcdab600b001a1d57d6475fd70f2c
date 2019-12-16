@@ -1,0 +1,23 @@
+package learnjava;
+
+public class myfirsttest {
+	
+  public static void main(String[]args) {
+	  int ram =20;
+	  int raju = 50;
+	  int ramesh= ram*raju;
+	  System.out.println("please multipalevalue:" +ramesh);
+  }
+ 
+		
+  public static void addtwo(String[]args) {
+	  int ram =20;
+	  int raju = 50;
+	  int ramesh= ram*raju;
+	  System.out.println("please multipalevalue:" +ramesh);
+  }
+	}			
+  
+
+	
+

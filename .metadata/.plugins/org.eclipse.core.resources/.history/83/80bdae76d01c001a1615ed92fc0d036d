@@ -1,0 +1,14 @@
+package test;
+
+import org.testng.annotations.Test;
+
+import feature.allCatogoryInHomePagesfeature;
+
+public class allCategoryTest extends allCatogoryInHomePagesfeature {
+	
+	@Test(description = "Goto All Catogory")
+	public void TestvalideLogin() {
+		GotoAllCatogory();
+
+}
+}

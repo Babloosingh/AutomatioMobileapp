@@ -1,0 +1,22 @@
+package learnjava;
+
+public class myfirsttest {
+	
+  public static void main (String[]args) {
+//	  float ram =2.5f;
+//	  float raju=2.5f;
+//	  float add=ram*raju;
+//	  System.out.println("how many value:" +add);
+	  
+	  int a=25, b=6;
+	  int quantaial= a/b;
+	  int reminder=a%b;
+	  System.out.println("add"+quantaial);
+	  System.out.println("add"+reminder);
+  }
+		
+  
+	}			  
+
+	
+

@@ -1,0 +1,14 @@
+package test;
+
+import org.testng.annotations.Test;
+
+import feature.locationDeliveryFeature;
+
+public class locationDeliveryTest extends locationDeliveryFeature{
+	@Test
+	public void TestDeliveryMapAddress() {
+		
+		
+	}
+
+}

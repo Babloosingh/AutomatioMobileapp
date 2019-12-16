@@ -1,0 +1,12 @@
+package test;
+
+import org.testng.annotations.Test;
+
+public class storeLocatoreTest {
+	@Test(description="Go to Store Locatore")
+	public void GoToStoreLocatorte() {
+		
+		
+	}
+
+}

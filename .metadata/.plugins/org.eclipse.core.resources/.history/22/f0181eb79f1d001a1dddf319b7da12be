@@ -1,0 +1,23 @@
+package po;
+
+public class StoreLocatorCheckPO {
+	StoreLocatorCheckPO (){	
+	}
+	public static final String ClLICK_ONTEXTFIELDHOMEPAGE ="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]";
+	public static final String CLICKONCANCEL_BUTTON ="com.lulu.commerce:id/btnBack";
+	public static final String CLICKONHOMEMENU_BUTTON ="Navigate up";
+	public static final String CLICKCHECK_STORELOCATOR ="com.lulu.commerce:id/btnStoreLocator";
+	public static final String SELCET_COUNTRY ="com.lulu.commerce:id/btnCountryClick";
+	public static final String CLICK_COUNTRY_KSA ="//*[@class=\"android.widget.TextView\"][@text=\"KSA\"]";
+	public static final String SELCET_CITY ="";
+	public static final String CLICK_CITY_ALKHOBAR ="";
+	public static final String  CLICK_BACK_BUTTON="";
+	public static final String  CLICK_CANCEL_BUTTON="";
+	public static final String CLICKHOME_BUTTON ="com.lulu.commerce:id/btnHome";
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,13 @@
+package test;
+
+import org.testng.annotations.Test;
+
+import feature.allCatogoryInHomePagesfeature;
+
+public class allCategoryTest extends allCatogoryInHomePagesfeature {
+	
+	@Test(description = "Valid Login With Email and Password")
+	public void TestvalideLogin() {
+		GotoAllCatogory();
+
+}

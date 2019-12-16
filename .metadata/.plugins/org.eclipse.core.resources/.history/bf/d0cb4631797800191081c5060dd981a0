@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BLUE-DART-TEST">
+
+	<parameter name="browser" value="*chrome" />
+	<parameter name="runLocally" value="true" />
+	<parameter name="url" value="https://staging.fareye.co/" />
+	<parameter name="chromeDriverPath" value="webdrivers/chromedriver_linux" />
+	<parameter name="appPath" value="apk/FarEyeReact_v0.35.0.apk" />
+
+	<listeners>
+		<listener class-name="com.fareye.qa.core.FarEyeCoreListener" />
+		<listener class-name="com.fareye.qa.core.analyzer.CustomTestNGReporter" />
+		<!-- This listener is used for retry logic -->
+		<!-- <listener class-name="com.fareye.qa.core.analyzer.AnnotationTransformer"/> -->
+	</listeners>
+
+	<test thread-count="1" name="BlueDartTest">
+		<!-- List all tests to include in this suite -->
+
+		<classes>
+			<class name="com.fareye.qa.bluedart.TestClass.java" />
+		</classes>
+
+	</test>
+</suite>

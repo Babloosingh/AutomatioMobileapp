@@ -1,0 +1,28 @@
+package Step;
+
+import AndroidSetup.AndroidSetup;
+import io.qameta.allure.Step;
+import po.scrlollhomepages;
+
+public class homeScrollPages extends AndroidSetup {
+	@Step("click in Home Text field")
+	public static void ClickonhomeButton() {
+		click("id",scrlollhomepages.CLICK_HOMESEARCH_TEXTFIELD);
+	}
+
+	@Step("click on Cancel Back Button")
+	public static void clickoncancelButton() {
+		click("xpath",scrlollhomepages.CANCEL_BUTTON);
+	}
+	
+	@Step("click on Cancel Back Button")
+	public static void ClickonallCatogry() {
+		click("xpath",scrlollhomepages.SCROLL_CLICK_ALL_CATAGORIES);
+		
+		
+	}
+	
+	
+	
+	
+}

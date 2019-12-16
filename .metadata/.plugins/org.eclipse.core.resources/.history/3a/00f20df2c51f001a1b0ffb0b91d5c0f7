@@ -1,0 +1,14 @@
+package po;
+
+public class locationDeliveryPo {
+	locationDeliveryPo (){
+		
+	}
+	
+	
+	
+	
+	
+	
+
+}

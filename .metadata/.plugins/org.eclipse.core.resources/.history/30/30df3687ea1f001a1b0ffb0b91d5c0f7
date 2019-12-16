@@ -1,0 +1,46 @@
+package po;
+
+public class locationDeliveryPo {
+	locationDeliveryPo (){
+		
+	}
+	
+	 public static final String DELIVERYMAP_HOMEBUTTON="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.ImageView";
+	 public static final String DELIVERY_LOCATION="com.lulu.commerce:id/btnDeliveryLocation";
+	 public static final String SELECT_COUNTRY="com.lulu.commerce:id/btnCountryClick";
+	 public static final String SELECTONE_COUNTRY="";
+	 public static final String SELECT_CITY="";
+	 public static final String SAVE_BUTTON="com.lulu.commerce:id/btnSave";
+	 
+	 // CALL TO AGIAN HERE TO HOME MAPE
+	 public static final String DELIVERY_MODE="com.lulu.commerce:id/btnDeliveryMode";
+	 public static final String SAVE_DELIVERYMODE="com.lulu.commerce:id/btnSave";
+	 
+	 
+	 public static final String DELIVERY_SLOT="com.lulu.commerce:id/btnDeliverySlot";
+	 public static final String SATURDAY_21DECEMBER="";
+	 public static final String TIME_SLOTE="";
+	 public static final String SAVE_ALLSLOTE="";
+	 
+	 // LANGAUAGE
+	 public static final String LANGAUAGE_SELECT="";
+	 public static final String URUDU_SELECT="";
+	 public static final String ENGLISH_SELECT="";
+	 public static final String SAVE_LANGAUAGE="";
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	
+	
+	
+	
+
+}

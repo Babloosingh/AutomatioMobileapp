@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests" thread-count="2">
+	<test name="Test1">
+		<parameter name="deviceName_" value="MOTO C " />
+		<parameter name="UDID_" value="106.51.66.75:7553" />
+		<parameter name="platformVersion_" value="7.0" />
+		<parameter name="URL_" value="http://127.0.0.1:5000/wd/hub" />
+		<classes>
+			<class name="AmazonetestApp.AmazontestAppium" />
+		</classes> 
+	</test>
+	<test name="Test2">
+		<parameter name="deviceName_" value="G4" />
+		<parameter name="UDID_" value="106.51.66.75:7537" />
+		<parameter name="platformVersion_" value="6.0" />
+		<parameter name="URL_" value="http://127.0.0.2:5001/wd/hub" />
+		<classes>
+			<class name="AmazonetestApp.AmazontestAppium" />
+		</classes>
+	</test>
+		<test name="Test3">
+		<parameter name="deviceName_" value="CHM-U01" />
+		<parameter name="UDID_" value="106.51.66.75:7541" />
+		<parameter name="platformVersion_" value="4.4.2" />
+		<parameter name="URL_" value="http://127.0.0.1:5000/wd/hub" />
+		<classes>
+			<class name="AmazonetestApp.AmazontestAppium" />
+		</classes> 
+	</test>
+</suite> <!-- Suite -->

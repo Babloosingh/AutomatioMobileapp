@@ -1,0 +1,16 @@
+package learnjava;
+
+public class myfirsttest {
+	
+  public static void main (String[]args) {
+	  float ram =2.5f;
+	  float raju=2.5f;
+	  float add=ram*raju;
+	  System.out.println("how many value:" +add);
+  }
+		
+  
+	}			  
+
+	
+

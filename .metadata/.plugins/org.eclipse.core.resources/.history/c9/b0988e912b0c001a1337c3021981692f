@@ -1,0 +1,15 @@
+package Mobile.Feature;
+
+import Mobile.step.loginstep;
+import io.qameta.allure.Step;
+
+public class loginFeature extends loginstep {
+@Step ("open login pages")
+public void gotologinpage() {
+	clickonLoginButton();
+	ClicklongpressButton();
+	
+} 
+
+}
+

@@ -1,0 +1,18 @@
+package po;
+
+public class locationDeliveryPo {
+	locationDeliveryPo (){
+		
+	}
+	
+	 public static final String DELIVERYMAP_HOMEBUTTON="";
+	 public static final String DELIVERY_LOCATION="";
+	 
+	 
+	 
+	
+	
+	
+	
+
+}

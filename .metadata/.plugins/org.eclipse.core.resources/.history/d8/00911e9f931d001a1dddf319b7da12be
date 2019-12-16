@@ -1,0 +1,14 @@
+package po;
+
+public class checkMyOrderpo {
+	public checkMyOrderpo() {
+		
+	}
+	
+	public static final String ClLICK_ONTEXTFIELDHOMEPAGE ="";
+	public static final String CLICKONCANCEL_BUTTON ="";
+	public static final String CLICKONHOMEMENU_BUTTON ="";
+	public static final String CLICKCHECK_MYORDER ="";
+	public static final String CLICKCHECK_MYORDER ="";
+
+}

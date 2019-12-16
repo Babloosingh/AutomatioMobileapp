@@ -1,0 +1,13 @@
+package Step;
+
+import AndroidSetup.AndroidSetup;
+import io.qameta.allure.Step;
+
+public class locationDeliveryStep extends AndroidSetup{
+	
+	@Step("")
+	public static void ClickOnHomeMapButton() {
+		
+	}
+	
+}

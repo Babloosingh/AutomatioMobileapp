@@ -1,0 +1,60 @@
+package Step;
+
+import AndroidSetup.AndroidSetup;
+import io.qameta.allure.Step;
+import po.locationDeliveryPo;
+
+public class locationDeliveryStep extends AndroidSetup{
+	
+	@Step("Click On Home Map Button")
+	public static void ClickOnHomeMapButton() {
+		click("xpath",locationDeliveryPo.DELIVERYMAP_HOMEBUTTON);
+	}
+	
+	@Step("Click On Delivery Location")
+	public static void ClickOnDeliveryLocation() {
+		click("xpath",locationDeliveryPo.DELIVERY_LOCATION);
+	}
+	@Step("Click On slect country")
+	public static void SelectCountry() {
+		click("xpath",locationDeliveryPo.SELECT_COUNTRY);
+	}
+	
+	@Step("Click On slect city")
+	public static void SelectCity() {
+		click("xpath",locationDeliveryPo.SELECT_CITY);
+	}
+	
+	@Step("Click On save button")
+	public static void SelecsaveButton() {
+		click("xpath",locationDeliveryPo.SAVE_BUTTON);
+	}
+	
+
+	
+	
+	 public static final String DELIVERYMAP_HOMEBUTTON="";
+	 public static final String DELIVERY_LOCATION="";
+	 public static final String SELECT_COUNTRY="";
+	 public static final String SELECT_CITY="";
+	 public static final String SAVE_BUTTON="";
+	 
+	 // CALL TO AGIAN HERE TO HOME MAPE
+	 public static final String DELIVERY_MODE="";
+	 public static final String SAVE_DELIVERYMODE="";
+	 
+	 
+	 public static final String DELIVERY_SLOT="";
+	 public static final String SATURDAY_21DECEMBER="";
+	 public static final String TIME_SLOTE="";
+	 public static final String SAVE_ALLSLOTE="";
+	 
+	 // LANGAUAGE
+	 public static final String LANGAUAGE_SELECT="";
+	 public static final String URUDU_SELECT="";
+	 public static final String ENGLISH_SELECT="";
+	 public static final String SAVE_LANGAUAGE="";
+	
+	
+	
+}

@@ -1,0 +1,15 @@
+package learnjava;
+
+public class myfirsttest {
+	
+	public static void main(String[] args) {
+		int a =25;
+		int b=36;
+		int c = a+b;
+		System.out.println("add two number:" +c);
+				
+	}
+
+	
+}
+

@@ -1,0 +1,10 @@
+package Mobile.Test;
+
+import Mobile.Feature.loginFeature;
+
+public class LoginTest extends loginFeature {
+	public void testvalidloginpages() {
+		gotologinpage();
+	}
+
+}

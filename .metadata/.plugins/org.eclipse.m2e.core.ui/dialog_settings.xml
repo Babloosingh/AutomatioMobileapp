@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/home/lathabp/eclipse-workspace/testmobileapp"/>
+			<item value="/home/lathabp/Documents/ForIAutomation"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/home/lathabp/eclipse-workspace/amz"/>
+			<item value="/home/lathabp/eclipse-workspace/TestforeyeMobileApp"/>
+			<item value="/home/lathabp/Documents/ForIAutomation/fareye-qa-core/model"/>
+			<item value="/home/lathabp/eclipse-workspace/testmobileapp"/>
+			<item value="/home/lathabp/eclipse-workspace/Amazonefinale"/>
+			<item value="/home/lathabp/eclipse-workspace/testingapp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="Luluapp.Luluapp"/>
+			<item value="Luluapp.luluapp"/>
+			<item value="amz.amz"/>
+			<item value="TestforeyeMobileApp.TestforeyeMobileApp"/>
+			<item value="Testamazone.Testamazone"/>
+			<item value="Testfareyemobile.Testfareyemobile"/>
+			<item value="Appiummaven.AmazonAutomationBase"/>
+			<item value="Appiummaven.mobileamazonebutton"/>
+			<item value="Appiummaven.testmobileapp"/>
+			<item value="Appiummaven.Appiumtest"/>
+			<item value="Appiummaven.Appium"/>
+			<item value="testingapp.testingapp"/>
+		</list>
+		<list key="groupId">
+			<item value="Luluapp"/>
+			<item value="amz"/>
+			<item value="TestforeyeMobileApp"/>
+			<item value="Testamazone"/>
+			<item value="Testfareyemobile"/>
+			<item value="Appiummaven"/>
+			<item value="testingapp"/>
+		</list>
+		<list key="artifactId">
+			<item value="Luluapp"/>
+			<item value="luluapp"/>
+			<item value="amz"/>
+			<item value="TestforeyeMobileApp"/>
+			<item value="Testamazone"/>
+			<item value="Testfareyemobile"/>
+			<item value="AmazonAutomationBase"/>
+			<item value="mobileamazonebutton"/>
+			<item value="testmobileapp"/>
+			<item value="Appiumtest"/>
+			<item value="Appium"/>
+			<item value="testingapp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

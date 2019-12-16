@@ -1,0 +1,59 @@
+package Mobile.step;
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.touch.TouchActions;
+
+import Mobile.page.LoginPO;
+import MobileAndroidsetup.MobileSetup;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidTouchAction;
+import io.appium.java_client.touch.LongPressOptions;
+import io.appium.java_client.touch.offset.ElementOption;
+import io.qameta.allure.Step;
+
+public class loginstep extends MobileSetup {
+
+
+@Step("Clicking on login")	
+public static void clickonLoginButton() {
+	click ("AccessibilityId",LoginPO.LOGIN_BUTTON);
+}
+	
+@Step ("Long Press Button")
+public static void ClickLongPresLogoIcon() {
+    MobileElement longPress= (MobileElement) driver.findElement(By.xpath((LoginPO.LONG_LOGOPRESSICON)));
+    AndroidTouchAction Longtouch = new AndroidTouchAction (driver);
+    Longtouch.longPress(LongPressOptions.longPressOptions()
+              .withElement (ElementOption.element (longPress))).perform ();
+    System.out.println("LongPressed Tapped on Scanner");
+}
+
+@Step("Confirm Reset m")
+public static void clicklonConfirmReste() {
+	click ("xpath",LoginPO.CONFIRM_RESET);
+}
+
+@Step("Scanner Button")
+public static void  ClickONScannerButton() {
+	MobileElement LongPrssScneer=(MobileElement) driver.findElement(By.xpath((LoginPO.SCANNER_BUTTON)));
+	AndroidTouchAction Longtouch = new AndroidTouchAction (driver);
+    Longtouch.longPress(LongPressOptions.longPressOptions()
+              .withElement (ElementOption.element (LongPrssScneer))).perform ();
+    System.out.println("LongPressed Tapped on Scanner");
+}
+
+@Step("Staging Button")
+public static void ClickOnStaging() {
+	click("xpath",LoginPO.STAGING_OPTION);
+	
+}
+
+
+}
+
+
+
+	

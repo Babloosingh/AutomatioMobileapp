@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="suite-test-testng(failed)">
+    <classes>
+      <class name="test.storeLocatoreTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="GoToStoreLocatorte"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.storeLocatoreTest -->
+      <class name="test.allCategoryTest">
+        <methods>
+          <include name="TestvalideLogin"/>
+          <include name="tearDown"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.allCategoryTest -->
+      <class name="test.addCartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestvalideAddCartValue"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.addCartTest -->
+      <class name="test.locationDeliveryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestDeliveryMapAddress"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.locationDeliveryTest -->
+      <class name="test.Logintest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestvalideLogin"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.Logintest -->
+      <class name="test.myOrderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="GoTOCheckMyOrder"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.myOrderTest -->
+    </classes>
+  </test> <!-- suite-test-testng(failed) -->
+</suite> <!-- Failed suite [Suite] -->

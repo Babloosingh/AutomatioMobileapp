@@ -1,0 +1,12 @@
+package Mobile.page;
+
+public class LoginPO {
+	private LoginPO() {
+	}
+	public static final String PREFERENCE_LANGAUGE="(//*[@class=\"android.widget.TextView\"])[@text=\"English\"]";
+	public static final String LOGIN_BUTTON ="continue button_chooseLanguage";
+	public static final String LONG_LOGOPRESSICON="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.ImageView";
+    public static final String CONFIRM_RESET="(//*[@class=\"android.widget.Button\"])[2]";
+    public static final String SCANNER_BUTTON ="//android.view.ViewGroup[@content-desc=\"display message and scanner_login\"]/android.widget.TextView";
+	
+}

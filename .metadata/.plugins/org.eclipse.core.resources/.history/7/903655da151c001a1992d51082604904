@@ -1,0 +1,8 @@
+package test;
+
+import feature.allCatogoryInHomePagesfeature;
+
+public class allCategoryTest extends allCatogoryInHomePagesfeature {
+	GotoAllCatogory();
+
+}

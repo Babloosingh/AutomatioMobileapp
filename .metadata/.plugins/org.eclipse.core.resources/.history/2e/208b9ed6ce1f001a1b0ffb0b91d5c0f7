@@ -1,0 +1,10 @@
+package test;
+
+import feature.locationDeliveryFeature;
+
+public class locationDeliveryTest extends locationDeliveryFeature{
+	public static void TestDeliveryMapAddress() {
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Testfareyemobile.Testfareyemobile&apos; to &apos;com.projct.mobile&apos;&#x0A;- Original project: &apos;Testfareyemobile&apos;&#x0A;- Original element: &apos;Testfareyemobile/src/main/java/Testfareyemobile.Testfareyemobile&apos;&#x0A;- Renamed element: &apos;Testfareyemobile/src/main/java/com.projct.mobile&apos;&#x0A;- Update textual occurrences in comments and strings&#x0A;- Rename subpackages of the package" description="Rename package &apos;Testfareyemobile.Testfareyemobile&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;Testfareyemobile.Testfareyemobile" name="com.projct.mobile" qualified="false" references="false" stamp="1572609132560" textual="false" version="1.0"/>
+</session>

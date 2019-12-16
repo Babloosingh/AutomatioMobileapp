@@ -1,0 +1,91 @@
+package Step;
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+
+import AndroidSetup.AndroidSetup;
+import io.appium.java_client.MobileBy;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.PointOption;
+import io.qameta.allure.Step;
+import po.searchProductPo;
+
+public class SearchoroductStep extends AndroidSetup {
+	
+	@Step("HomeSearch Texfield")
+	public static void ClickOnHomeSearchTextfield() {
+		click("id", searchProductPo.HOMESEARCH_TEXTFIELD);
+		
+	}
+	
+	//@Step("Tap on Text field")
+	public static void ClickOnintextField() {
+
+		enterText("id", searchProductPo.TAPON_SEARCH,"iphone");
+		
+	       
+	}
+
+
+	
+	@Step("Tap on All Result")
+	public static void ClickOnResult() {
+		click("xpath", searchProductPo.TAPON_ALL_RESULT_IPHONE);
+	}
+	
+	@Step("Scrllo Item And Select")
+	public static void ClicScrollandADDItem() {	
+
+		
+		// @@@  **   Kartik  ******
+//			int width = driver.manage().window().getSize().getWidth();
+//			int height = driver.manage().window().getSize().getHeight();
+//			int startx = width / 2;
+//			int starty = (int) (height * 0.80);
+//			int endy = (int) (height / 2);
+//			System.out.println("Value of start x: "+startx);
+//			System.out.println("Value of start y: "+starty);
+//			System.out.println("Value of end y: "+endy);
+//		
+//			boolean flag = false;
+//			for (int i = 0; i < 6; i++) {
+//				try {
+//					driver.findElement(By.xpath("//*[@text='Apple iPhone 11 Pro Max 64GB Space Grey']"));
+//					flag = true;
+//					break;
+//				} catch (Exception e1) {
+//					TouchAction act = new TouchAction(driver);
+//					act.press(PointOption.point(startx, starty)).moveTo(PointOption.point(startx, endy)).perform().release()
+//							.waitAction(WaitOptions.waitOptions(Duration.ofMillis(500)));
+//				}
+//			}
+//	
+		
+		
+		
+		
+		
+		
+    MobileElement element =  (MobileElement) driver.findElement(MobileBy.AndroidUIAutomator(
+				"new UiScrollable(new UiSelector().resourceId(\"com.lulu.commerce:id/product_name\")).getChildByText("
+				+ "new UiSelector().className(\"android.widget.TextView\"), \"Apple iPhone 11 Pro Max 64GB Space Grey\")"));
+         
+    System.out.println("Choose item" +element);
+    element.click();
+
+
+
+    
+
+
+	}
+}
+
+
+	
+	
+	
+
+

@@ -1,0 +1,19 @@
+package feature;
+
+import Step.storeLocatorStep;
+import io.qameta.allure.Step;
+
+public class storeLocatoreFeature extends storeLocatorStep{
+	@Step ("Go to Add Cart")
+	public void GotStoreLocator() {
+		ClickOnHomeSearchTextfield();
+		ClickOnintextField();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		ClicScrollandADDItem();
+		ClickOnResult();
+}
